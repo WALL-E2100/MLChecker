@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  padding: 0px;
+  margin: 0px;
+  /* padding: 0; */
+  font-family: Arial, sans-serif;
+  background-image: url("./assets/cat.jpg");
+  background-size: cover;
+
+  background-position: center;
+}
