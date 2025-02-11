@@ -19,6 +19,7 @@ function Checker() {
   }, []);
 
   const handleSearch = () => {
+    const rapidAPIKey = import.meta.env.VITE_RAPIDAPI_KEY;
     if (!userId || !serverId) {
       alert("Please enter both ID and Server.");
       return;
@@ -28,7 +29,7 @@ function Checker() {
       method: "GET",
       url: `https://id-game-checker.p.rapidapi.com/mobile-legends/${userId}/${serverId}`,
       headers: {
-        "x-rapidapi-key": "bff18ed003mshdfbf77710d40af9p190284jsn4f003b0245e3",
+        "x-rapidapi-key": rapidAPIKey,
         "x-rapidapi-host": "id-game-checker.p.rapidapi.com",
       },
     };
