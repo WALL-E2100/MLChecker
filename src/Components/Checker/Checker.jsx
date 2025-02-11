@@ -28,7 +28,7 @@ function Checker() {
       method: "GET",
       url: `https://id-game-checker.p.rapidapi.com/mobile-legends/${userId}/${serverId}`,
       headers: {
-        "x-rapidapi-key": "d7b7311843msh1b7fc6cc693bae3p10bdc9jsn98b66202a34d",
+        "x-rapidapi-key": "bff18ed003mshdfbf77710d40af9p190284jsn4f003b0245e3",
         "x-rapidapi-host": "id-game-checker.p.rapidapi.com",
       },
     };
